@@ -1,6 +1,7 @@
 // Convert time to a format of hours, minutes, seconds, and milliseconds
 function request_fullscreen() {
-  document.documentElement.webkitRequestFullScreen();
+  //document.documentElement.webkitRequestFullScreen();
+  document.documentElement.webkitEnterFullScreen();
 }
 
 
