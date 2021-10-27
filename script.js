@@ -45,19 +45,19 @@ function timeToString(time) {
       elapsedTime = Date.now() - startTime;
       print(timeToString(elapsedTime));
     }, 10);
-    showButton("PAUSE");
+    
   }
   
   function pause() {
     clearInterval(timerInterval);
-    showButton("PLAY");
+    
   }
   
   function reset() {
     clearInterval(timerInterval);
     print("00:00:00");
     elapsedTime = 0;
-    showButton("PLAY");
+    
   }
 
 
